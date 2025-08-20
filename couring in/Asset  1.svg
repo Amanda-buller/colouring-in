@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 779.77 540.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-1" cx="153.02" cy="164.01" rx="93.7" ry="105.46"/>
+    <rect class="cls-1" x="153.02" y="45.95" width="189.5" height="121.85"/>
+    <polygon class="cls-1" points="236.63 350.54 256.11 278.09 193.22 237.18 268.14 233.31 287.61 160.86 314.44 230.92 389.36 227.05 331.03 274.22 357.86 344.28 294.97 303.37 236.63 350.54"/>
+    <polygon class="cls-1" points="642.62 446.43 526.64 320.66 371.2 392.1 454.97 242.93 339 117.17 506.74 150.75 590.52 1.59 610.42 171.5 778.17 205.08 622.72 276.51 642.62 446.43"/>
+    <ellipse class="cls-1" cx="60.58" cy="400.57" rx="60.08" ry="73.11"/>
+    <ellipse class="cls-1" cx="197.14" cy="433.34" rx="51.26" ry="53.78"/>
+    <ellipse class="cls-1" cx="345.46" cy="456.03" rx="52.52" ry="48.74"/>
+    <circle class="cls-1" cx="134.11" cy="385.44" r="63.03"/>
+    <circle class="cls-1" cx="275.5" cy="468.84" r="57.35"/>
+    <circle class="cls-1" cx="551.97" cy="483.13" r="57.35"/>
+  </g>
+</svg>

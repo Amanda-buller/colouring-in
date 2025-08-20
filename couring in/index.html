@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Colour the Bird</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="palette" aria-label="Colour palette">
+      <button class="swatch" style="--c:#ff1f1f" aria-label="Red"></button>
+      <button class="swatch" style="--c:#10d310" aria-label="Green"></button>
+      <button class="swatch" style="--c:#1c53ff" aria-label="Blue"></button>
+      <button class="swatch" style="--c:#ffb703" aria-label="Yellow"></button>
+      <button class="swatch" style="--c:#8b5cf6" aria-label="Purple"></button>
+      <button class="swatch" style="--c:#f97316" aria-label="Orange"></button>
+      <button id="resetBtn" class="btn small">Home</button>
+    </aside>
+
+    <header class="top">
+      <button id="undoBtn" class="btn">Undo</button>
+      <button id="redoBtn" class="btn">Redo</button>
+    </header>
+
+    <main class="stage">
+      <!-- High-DPI canvas (drawn from your SVG) -->
+      <canvas id="canvas"></canvas>
+    </main>
+
+    <aside class="right">
+      <button id="saveBtn" class="btn">Done (Save PNG)</button>
+    </aside>
+
+    <footer class="footer">
+      Tip: Choose a colour, then click inside the bird to fill. The paint stays within the black lines.
+      <span id="hint"></span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
